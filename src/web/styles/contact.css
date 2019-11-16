@@ -1,0 +1,21 @@
+.contact {
+    margin-bottom: 3.6rem;
+}
+
+.contact .title {
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+.contact .website {
+    margin-top: 0.6rem;
+    color: #a0a0a0;
+}
+.contact .phone {
+}
+.contact .email {
+}
+
+.contact h2 {
+    margin-bottom: 0.6rem;
+}

@@ -1,0 +1,12 @@
+<div class="education">
+    <p class="title">Education</p>
+    <br />
+    <each loop="program in education">
+        <div class="program">
+            <h4 class="study">{{program.studyType}}</h4>
+            <p class="institution"><a href="{{program.website}}">{{program.institution}}</a></p>
+            <p class="summary">{{new Date(program.startDate).getFullYear() + 1}} - {{new Date(program.endDate).getFullYear() + 1}} | {{program.location.city}}, {{program.location.region}}</p>
+            <p></p>
+        </div>
+    </each>
+</div>

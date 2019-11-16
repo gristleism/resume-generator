@@ -1,0 +1,21 @@
+<div id="experience" class="experience">
+  <p class="title">Experience</p>
+  <br />
+  <each loop="job in work">
+    <div class="job">
+      <h4 class="position">{{job.position}}</h4>
+      <p class="company">{{job.company}}</p>
+      <p class="summary">
+        {{formatDate(job.startDate)}} - {{formatDate(job.endDate)}} |
+        {{job.location}}
+      </p>
+      <div class="highlights">
+        <each loop="highlight in job.highlights">
+          <ul>
+              <li><span>{{highlight}}</span></li>
+          </ul>
+        </each>
+      </div>
+    </div>
+  </each>
+</div>

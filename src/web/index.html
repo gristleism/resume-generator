@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ian Glover Resume {{new Date().getFullYear()}}</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div id="content">
+      <div id="resume">
+        <include src="contact.html"></include>
+        <div class="grid">
+          <div class="column-left">
+              <include src="experience.html"></include>
+          </div>
+          <div class="column-right">
+              <include src="education.html"></include>
+              <include src="skills.html"></include>
+          </div>
+        </div>
+        <include src="colophon.html"></include>
+      </div>
+      <include src="download.html"></include>
+    </div>
+    <script src="./scripts/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+{
+  "name": "resume-generator",
+  "version": "1.0.0",
+  "description": "Page for displaying current resume and generating PDF for users who require it.",
+  "private": true,
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.2.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "generatePdf": "node ./src/pdf/generatePDF.js",
+    "generateJson": "node ./src/json/generateJSON.js",
+    "validateJson": "node ./src/json/validateJSONResumeSchema.js",
+    "prestart": "yarn run validateJson && yarn run generateJson && yarn run generatePdf",
+    "start": "parcel serve --no-cache ./src/web/index.html",
+    "prebuild": "yarn run validateJson && yarn run generateJson && yarn run generatePdf",
+    "build": "parcel build ./src/web/index.html"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "fs-extra": "^8.1.0",
+    "normalize.css": "^8.0.1",
+    "pdfkit": "^0.10.0",
+    "posthtml": "^0.12.0",
+    "posthtml-expressions": "^1.1.1",
+    "posthtml-include": "^1.3.2",
+    "resume-schema": "^0.0.18",
+    "source-sans-pro": "^3.6.0",
+    "source-serif-pro": "^3.1.0",
+    "yarn": "^1.19.1"
+  }
+}

@@ -1,0 +1,20 @@
+<div id="skills" class="skills">
+  <p class="title">Skills</p>
+  <br />
+  <each loop="skill in skills">
+    <div class="skill">
+      <h4 class="title">{{skill.name}}</h4>
+      <p>
+      <each loop="keyword, index in skill.keywords">
+
+        <if condition="index === skill.keywords.length - 1">
+          {{keyword}}.
+        </if>
+        <else>
+          {{keyword}},
+        </elseif>
+      </each>
+      </p>
+    </div>
+  </each>
+</div>

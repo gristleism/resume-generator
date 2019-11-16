@@ -1,0 +1,15 @@
+.skills {
+}
+
+.skills .title {
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+.skills .skill {
+    margin-bottom: 1.2rem;
+}
+
+.skills .skill .title {
+    margin-bottom: 0.6rem;
+}

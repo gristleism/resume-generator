@@ -1,0 +1,37 @@
+.experience {
+    max-width: 40em;
+}
+
+.experience .title {
+    color: #a0a0a0;
+    text-transform: uppercase;
+}
+
+.job {
+    margin-bottom: 2.4rem;
+}
+
+.job .position {
+    margin-top: 2.4rem;
+}
+
+.job .position:first-of-type {
+    margin-top: 0rem;
+}
+
+.job .company {
+    margin-top: 0.6rem;
+    color: #a0a0a0;
+}
+
+.job .summary {
+    color: #a0a0a0;
+}
+
+.job .highlights {
+    margin-top: 0.6rem;
+}
+
+.job .highlights p.highlight {
+    /* margin-bottom: 0.6rem; */
+}

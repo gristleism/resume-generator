@@ -1,0 +1,76 @@
+/* Normalize CSS */
+@import "normalize.css";
+/* Local Resets */
+@import "./reset.css";
+/* Import Font Sizes */
+@import "./font-sizes.css";
+/* Import Fonts */
+@import "./fonts.css";
+
+/* Application Styling */
+body {
+  text-align: left;
+  line-height: 22.72px;
+}
+
+/* component styling */
+@import "./resume.css";
+@import "./contact.css";
+@import "./experience.css";
+@import "./education.css";
+@import "./skills.css";
+@import "./colophon.css";
+@import "./download.css";
+@import "./loader.css";
+
+#content {
+  /* width: 90vw; */
+  padding-top: 3.6rem;
+  margin-bottom: 4.8rem;
+  margin-left: 3.6rem;
+  margin-right: 3.6rem;
+}
+
+#content .grid {
+  display: grid;
+  grid-template-columns: 40rem 30rem;
+  grid-column-gap: 3.6rem;
+}
+
+#content .grid .column-left {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#content .grid .column-right {
+  max-width: 40rem;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+/* calculation: left margin + left column width + spacer + right column width + right margin */
+@media screen and (max-width: calc(3.6rem + 40rem + 3.6rem + 30rem + 3.6rem)) {
+
+  #content .grid {
+    grid-template-columns: 100fr;
+  }
+
+  #content .grid .column-left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+
+  #content .grid .column-right {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  #content {
+    padding-top: 2.4rem;
+    margin-bottom: 3.6rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+  }
+}

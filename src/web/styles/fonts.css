@@ -1,0 +1,12 @@
+@import "../../../node_modules/source-sans-pro/source-sans-pro.css";
+@import "../../../node_modules/source-serif-pro/source-serif-pro.css";
+
+/* body font */
+body {
+    font-family: 'Source Sans Pro';
+}
+
+/* header fonts */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif Pro';
+}

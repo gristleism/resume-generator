@@ -1,0 +1,96 @@
+{
+  "basics": {
+    "name": "John Doe",
+    "label": "Programmer",
+    "picture": "",
+    "email": "johndoe@johndoe.com",
+    "phone": "(912) 555-4321",
+    "website": "https://www.johndoe.com",
+    "summary": "",
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "johndoe",
+        "url": "https://www.instagram.com/johndoe"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Company A",
+      "position": "Lead Developer",
+      "website": "https://www.company.com",
+      "startDate": "2013-01-01",
+      "endDate": "2014-01-01",
+      "summary": "Summary of position at Company A",
+      "location": "New York, NY",
+      "highlights": [
+        "Lead developer creating things",
+        "A second highlight"
+      ]
+    },
+    {
+      "company": "Company B",
+      "position": "Junior Developer",
+      "website": "https://www.company.com",
+      "startDate": "2011-06-01",
+      "endDate": "2013-01-01",
+      "summary": "Summary of position at Company B",
+      "location": "Providence, RI",
+      "highlights": [
+        "A highlight describing responsibilities at Company B"
+      ]
+  }],
+  "education": [
+    {
+      "institution": "University",
+      "website": "https://www.university.edu",
+      "area": "Software Development",
+      "studyType": "Bachelor",
+      "startDate": "2006-01-01",
+      "endDate": "2010-01-01",
+      "location": "Providence, RI"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Tools",
+      "keywords": [
+        "Git",
+        "Node.JS",
+        "Webpack",
+        "React",
+        "Angular",
+        "MySQL",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "Javascript ES2018",
+        "HTML5",
+        "CSS3",
+        "C#",
+        "Bash",
+        "PHP",
+        "Ruby",
+        "Swift"
+      ]
+    },
+    {
+      "name": "Software",
+      "keywords": [
+        "Adobe Photoshop",
+        "Adobe After Effects",
+        "Adobe Illustrator",
+        "Ableton Live",
+        "Resolume",
+        "Unity",
+        "Sublime Text",
+        "Visual Studio Code",
+        "Xcode"
+      ]
+    }
+  ]
+}
