@@ -17,36 +17,36 @@
   },
   "work": [
     {
-      "company": "Company A",
-      "position": "Lead Developer",
+      "company": "Company Example Alpha",
+      "position": "Senior Web Developer",
       "website": "https://www.company.com",
       "startDate": "2013-01-01",
       "endDate": "2014-01-01",
-      "summary": "Summary of position at Company A",
+      "summary": "Summary of position at Company Alpha",
       "location": "New York, NY",
       "highlights": [
-        "Lead developer creating things",
-        "A second highlight"
+        "Develop project scope, timelines, and tasks working closely with the product and delivery management teams",
+        "Perform web development, template development, testing, debugging, integration, documentation and deployment in accordance with industry best practices"
       ]
     },
     {
-      "company": "Company B",
-      "position": "Junior Developer",
+      "company": "Company Example Beta",
+      "position": "Junior Web Developer",
       "website": "https://www.company.com",
       "startDate": "2011-06-01",
       "endDate": "2013-01-01",
-      "summary": "Summary of position at Company B",
+      "summary": "Summary of position at Company Example Beta",
       "location": "Providence, RI",
       "highlights": [
-        "A highlight describing responsibilities at Company B"
+        "Build templates and CMS tools to streamline the task of building new pages"
       ]
   }],
   "education": [
     {
-      "institution": "University",
+      "institution": "University of Computer Studies",
       "website": "https://www.university.edu",
-      "area": "Software Development",
-      "studyType": "Bachelor",
+      "area": "Computer Science",
+      "studyType": "Bachelor's Degree",
       "startDate": "2006-01-01",
       "endDate": "2010-01-01",
       "location": "Providence, RI"
@@ -60,9 +60,7 @@
         "Node.JS",
         "Webpack",
         "React",
-        "Angular",
-        "MySQL",
-        "PostgreSQL"
+        "MySQL"
       ]
     },
     {
@@ -71,22 +69,13 @@
         "Javascript ES2018",
         "HTML5",
         "CSS3",
-        "C#",
-        "Bash",
         "PHP",
-        "Ruby",
-        "Swift"
+        "Ruby"
       ]
     },
     {
       "name": "Software",
       "keywords": [
-        "Adobe Photoshop",
-        "Adobe After Effects",
-        "Adobe Illustrator",
-        "Ableton Live",
-        "Resolume",
-        "Unity",
         "Sublime Text",
         "Visual Studio Code",
         "Xcode"
