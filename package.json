@@ -15,7 +15,7 @@
     "prestart": "yarn run validateJson && yarn run generateJson && yarn run generatePdf",
     "start": "parcel serve --no-cache ./src/web/index.html",
     "prebuild": "yarn run validateJson && yarn run generateJson && yarn run generatePdf",
-    "build": "parcel build ./src/web/index.html"
+    "build": "parcel build --no-cache ./src/web/index.html"
   },
   "dependencies": {
     "add": "^2.0.6",
