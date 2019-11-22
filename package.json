@@ -16,7 +16,6 @@
     "start": "parcel serve --no-cache ./src/web/index.html",
     "prebuild": "yarn run validateJson && yarn run generateJson && yarn run generatePdf",
     "build": "parcel build --no-cache ./src/web/index.html",
-    "github-pages": "parcel build --public-url /resume-generator --no-cache ./src/web/index.html"
   },
   "dependencies": {
     "add": "^2.0.6",

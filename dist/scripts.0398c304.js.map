@@ -1,1 +1,0 @@
-{"version":3,"sources":["scripts/index.js"],"names":["document","getElementById","classList","add"],"mappings":";AACiBA,SAASC,eAAe,UAChCC,UAAUC,IAAI","file":"scripts.0398c304.js","sourceRoot":"../src/web","sourcesContent":["(() => {\n  const loader = document.getElementById('loader')\n  loader.classList.add('loaded')\n})();\n"]}
